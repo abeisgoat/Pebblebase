@@ -8,6 +8,9 @@ var UI = require('ui');
 var Vector2 = require('vector2');
 require('./firebase');
 
+/*
+  MAKE SURE TO REPLACE YOUR_FIREBASE WITH A LINK TO YOUR FIREBASE, OTHERWISE THIS WONT WORK
+*/
 var ref = new Firebase(YOUR_FIREBASE);
 
 function showMenu() {
