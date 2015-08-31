@@ -5,9 +5,10 @@
  */
 
 var UI = require('ui');
+var Vector2 = require('vector2');
 require('./firebase');
 
-var ref = new Firebase('bucket.firebaseio.com/pebble');
+var ref = new Firebase(YOUR_FIREBASE);
 
 function showMenu() {
   var menu = new UI.Menu({
